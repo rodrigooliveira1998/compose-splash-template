@@ -52,7 +52,6 @@ dependencies {
     implementation(project(":core:common"))
     implementation(project(":core:network"))
     implementation(project(":core:ui"))
-
     implementation(project(":feature:splash"))
     implementation(project(":feature:home"))
 
@@ -72,4 +71,9 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // Koin
+    implementation(libs.koin.android)
+    implementation(libs.koin.compose)
 }
+
